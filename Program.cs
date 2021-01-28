@@ -16,9 +16,9 @@ namespace GenericsIntro
 
             Console.WriteLine(names.Length);
 
-            foreach (var isim in names.Items)
+            foreach (var name in names.Items)
             {
-                Console.WriteLine(isim);
+                Console.WriteLine(name);
             }
 
             Console.WriteLine("Hello World!");
